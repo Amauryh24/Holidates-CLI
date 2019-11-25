@@ -1,18 +1,30 @@
 {
-  "name": "test",
+  "name": "mysupercli",
   "version": "1.0.0",
-  "description": "See all holidays in country by year",
+  "description": "ma description",
   "main": "index.js",
   "bin": {
-    "test": "./index.js"
+    "mysuperCLI": "./bin/index.js",
+    "mySuperCLI": "./bin/index.js",
+    "mysupercli": "./bin/index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Amaury Henrottay",
-  "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
     "country-list": "^2.2.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaury2409/test-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaury2409/test-CLI/issues"
+  },
+  "homepage": "https://github.com/amaury2409/test-CLI#readme"
 }
