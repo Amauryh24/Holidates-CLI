@@ -10,22 +10,18 @@ console.log(getCode(country));
 
 let currentDay = new Date();
 let currentYear = currentDay.getFullYear();
-if (country == null) {
-    console.log("please use a country name as parameters");
-} else if (countryCode == undefined) {
+
+if (countryCode == undefined) {
     console.log('this country is not available');
-    
 } else {
     getholidays();
 }
 
 
-
-
 async function getholidays() {
   try {
     const response = await axios.get("https://date.nager.at/Api/v2/PublicHolidays/" + currentYear + "/" + countryCode);
-    console.log(response.data[0]);
+    console.log(response.data);
   } catch (error) {
     console.error(error);
   }
