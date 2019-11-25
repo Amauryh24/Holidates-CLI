@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amaury2409/test-CLI.git"
+    "url": "git+https://github.com/Amauryh24/Holidates-CLI.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amaury2409/test-CLI/issues"
+    "url": "https://github.com/Amauryh24/Holidates-CLI/issues"
   },
-  "homepage": "https://github.com/amaury2409/test-CLI#readme"
+  "homepage": "https://github.com/Amauryh24/Holidates-CLI#readme"
 }
