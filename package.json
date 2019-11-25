@@ -1,12 +1,11 @@
 {
-  "name": "mysupercli",
+  "name": "holidates",
   "version": "1.0.0",
   "description": "ma description",
   "main": "index.js",
   "bin": {
-    "mysuperCLI": "./bin/index.js",
-    "mySuperCLI": "./bin/index.js",
-    "mysupercli": "./bin/index.js"
+    "holidates": "./bin/index.js",
+    "Holidates": "./bin/index.js"
   },
   "dependencies": {
     "axios": "^0.19.0",
