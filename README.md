@@ -2,27 +2,23 @@
 ## My first Command line Interface (CLI) with node.js
 ### Installation
 > npm install @amauryh24/holidates
-> sudo npm link
+    > sudo npm link
 ### Execution
 > holidates [country-name] [year]
 ### usage 
-> holidates France 1948
+> holidates Belgium 1831
 <pre>
-Holidates in France for the year 1948:
+Holidates in Belgium for the year 1831:
 
-1948-01-01 : New Year's Day
-1948-03-26 : Good Friday
-1948-03-29 : Easter Monday
-1948-05-01 : Labour Day
-1948-05-06 : Ascension Day
-1948-05-08 : Victory in Europe Day
-1948-05-17 : Whit Monday
-1948-05-22 : Abolition of Slavery
-1948-05-27 : Abolition de l'esclavage
-1948-07-14 : Bastille Day
-1948-08-15 : Assumption Day
-1948-11-01 : All Saints' Day
-1948-11-11 : Armistice Day
-1948-12-25 : Christmas Day
-1948-12-26 : St. Stephen's Day
+1831-01-01 : New Year's Day
+1831-04-03 : Easter Sunday
+1831-04-04 : Easter Monday
+1831-05-01 : Labour Day
+1831-05-12 : Ascension Day
+1831-05-23 : Whit Monday
+1831-07-21 : Belgian National Day
+1831-08-15 : Assumption Day
+1831-11-01 : All Saints' Day
+1831-11-11 : Armistice Day
+1831-12-25 : Christmas Day
 </pre>
