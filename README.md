@@ -2,7 +2,8 @@
 ## My first Command line Interface (CLI) with node.js
 ### Installation
 > npm install @amauryh24/holidates
-    > sudo npm link
+
+> sudo npm link
 ### Execution
 > holidates [country-name] [year]
 ### usage 
