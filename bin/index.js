@@ -23,7 +23,7 @@ async function getholidays() {
     const response = await axios.get("https://date.nager.at/Api/v2/PublicHolidays/" + currentYear + "/" + countryCode);
   
     for (const item of response.data) {
-          console.log(chalk.blue(item.date) + " : " + chalk.blue.italic(item.name));
+          console.log(chalk.blue(item.date) + chalk.green(" : ") + chalk.blue.italic(item.name));
     }
   } catch (error) {
     console.error(error);
