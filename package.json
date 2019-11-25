@@ -1,7 +1,7 @@
 {
-  "name": "@amaury/holidates",
+  "name": "@amauryh24/holidates",
   "version": "1.0.0",
-  "description": " Tool who give all dates holidays by country and year that your choice",
+  "description": "Tool who give all dates holidays by country and year that your choice",
   "main": "index.js",
   "bin": {
     "holidates": "./bin/index.js",
@@ -10,7 +10,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "chalk": "^3.0.0",
-    "country-list": "^2.2.0",
+    "country-list": "^2.2.0"
   },
   "devDependencies": {},
   "scripts": {
