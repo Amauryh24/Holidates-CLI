@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const countryList = require('country-list');
 const axios = require('axios');
+const chalk = require('chalk');
 const { getCode, getName } = require('country-list');
 
 let args = process.argv.slice(2);
@@ -9,9 +10,9 @@ let currentYear = args[1] || new Date().getFullYear();
 let countryCode = (getCode(country));
 
 if (countryCode == undefined) {
-    console.log('this country is not available');
+    console.log(chalk.red('Sorry, this country is not available !'));
 } else {
-    console.log("Holidates in "+ country + " for the year " + currentYear + ":\n");
+    console.log(chalk.green("Holidates in "+ chalk.underline.bold(country)  + " for the year " + chalk.underline.bold(currentYear) + ":\n"));
     getholidays();
 }
 
@@ -20,7 +21,7 @@ async function getholidays() {
     const response = await axios.get("https://date.nager.at/Api/v2/PublicHolidays/" + currentYear + "/" + countryCode);
   
     for (const item of response.data) {
-          console.log(item.date + " : " + item.name);
+          console.log(chalk.blue(item.date) + " : " + chalk.blue.italic(item.name));
     }
   } catch (error) {
     console.error(error);
