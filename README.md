@@ -1,6 +1,6 @@
 # Node-CLI - Holidates Tool
 ## My first Command line Interface (CLI) with node.js
-> [@amauryh24/holidates](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
+> [@amauryh24/holidates](https://www.npmjs.com/package/@amauryh24/holidates)
 ### Installation
 > npm install @amauryh24/holidates
 
