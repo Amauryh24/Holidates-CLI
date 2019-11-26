@@ -1,6 +1,6 @@
 {
   "name": "@amauryh24/holidates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool who give all dates holidays by country and year that your choice",
   "main": "index.js",
   "bin": {
